@@ -12,6 +12,11 @@
 		76B0FBC1233247FD00A28EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBBF233247FD00A28EAE /* Main.storyboard */; };
 		76B0FBC3233247FE00A28EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBC2233247FE00A28EAE /* Assets.xcassets */; };
 		76B0FBC6233247FE00A28EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBC4233247FE00A28EAE /* LaunchScreen.storyboard */; };
+		76B0FBCE2332482F00A28EAE /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBCD2332482F00A28EAE /* CalendarManager.swift */; };
+		76B0FBD1233248A300A28EAE /* InfoPlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */; };
+		76B0FBD2233248A300A28EAE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD0233248A300A28EAE /* Logger.swift */; };
+		76B0FBD4233248AF00A28EAE /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD3233248AF00A28EAE /* Date+Ext.swift */; };
+		76B0FBD6233248C300A28EAE /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD5233248C300A28EAE /* Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		76B0FBC2233247FE00A28EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B0FBC5233247FE00A28EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76B0FBC7233247FE00A28EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B0FBCD2332482F00A28EAE /* CalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPlistUtil.swift; sourceTree = "<group>"; };
+		76B0FBD0233248A300A28EAE /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		76B0FBD3233248AF00A28EAE /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		76B0FBD5233248C300A28EAE /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,33 @@
 			children = (
 				76B0FBBB233247FD00A28EAE /* AppDelegate.swift */,
 				76B0FBBD233247FD00A28EAE /* ViewController.swift */,
+				76B0FBD8233248D200A28EAE /* CalendarManager */,
+				76B0FBD7233248C700A28EAE /* Tools */,
 				76B0FBBF233247FD00A28EAE /* Main.storyboard */,
 				76B0FBC2233247FE00A28EAE /* Assets.xcassets */,
 				76B0FBC4233247FE00A28EAE /* LaunchScreen.storyboard */,
 				76B0FBC7233247FE00A28EAE /* Info.plist */,
 			);
 			path = CalendarManagerExample;
+			sourceTree = "<group>";
+		};
+		76B0FBD7233248C700A28EAE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */,
+				76B0FBD0233248A300A28EAE /* Logger.swift */,
+				76B0FBD3233248AF00A28EAE /* Date+Ext.swift */,
+				76B0FBD5233248C300A28EAE /* Identifiable.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		76B0FBD8233248D200A28EAE /* CalendarManager */ = {
+			isa = PBXGroup;
+			children = (
+				76B0FBCD2332482F00A28EAE /* CalendarManager.swift */,
+			);
+			path = CalendarManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B0FBD2233248A300A28EAE /* Logger.swift in Sources */,
+				76B0FBD1233248A300A28EAE /* InfoPlistUtil.swift in Sources */,
+				76B0FBCE2332482F00A28EAE /* CalendarManager.swift in Sources */,
+				76B0FBD4233248AF00A28EAE /* Date+Ext.swift in Sources */,
+				76B0FBD6233248C300A28EAE /* Identifiable.swift in Sources */,
 				76B0FBBE233247FD00A28EAE /* ViewController.swift in Sources */,
 				76B0FBBC233247FD00A28EAE /* AppDelegate.swift in Sources */,
 			);
