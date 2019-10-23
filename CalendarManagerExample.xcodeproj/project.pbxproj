@@ -3,20 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7667A3B72360520F002F82B9 /* CalendarManager in Frameworks */ = {isa = PBXBuildFile; productRef = 7667A3B62360520F002F82B9 /* CalendarManager */; };
 		76B0FBBC233247FD00A28EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBBB233247FD00A28EAE /* AppDelegate.swift */; };
 		76B0FBBE233247FD00A28EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBBD233247FD00A28EAE /* ViewController.swift */; };
 		76B0FBC1233247FD00A28EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBBF233247FD00A28EAE /* Main.storyboard */; };
 		76B0FBC3233247FE00A28EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBC2233247FE00A28EAE /* Assets.xcassets */; };
 		76B0FBC6233247FE00A28EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBC4233247FE00A28EAE /* LaunchScreen.storyboard */; };
-		76B0FBCE2332482F00A28EAE /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBCD2332482F00A28EAE /* CalendarManager.swift */; };
-		76B0FBD1233248A300A28EAE /* InfoPlistUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */; };
-		76B0FBD2233248A300A28EAE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD0233248A300A28EAE /* Logger.swift */; };
-		76B0FBD4233248AF00A28EAE /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD3233248AF00A28EAE /* Date+Ext.swift */; };
-		76B0FBD6233248C300A28EAE /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B0FBD5233248C300A28EAE /* Identifiable.swift */; };
 		76B0FBDA2332550100A28EAE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 76B0FBD92332550100A28EAE /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -28,11 +24,6 @@
 		76B0FBC2233247FE00A28EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76B0FBC5233247FE00A28EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76B0FBC7233247FE00A28EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76B0FBCD2332482F00A28EAE /* CalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
-		76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPlistUtil.swift; sourceTree = "<group>"; };
-		76B0FBD0233248A300A28EAE /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		76B0FBD3233248AF00A28EAE /* Date+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		76B0FBD5233248C300A28EAE /* Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		76B0FBD92332550100A28EAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7667A3B72360520F002F82B9 /* CalendarManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,33 +61,12 @@
 			children = (
 				76B0FBBB233247FD00A28EAE /* AppDelegate.swift */,
 				76B0FBBD233247FD00A28EAE /* ViewController.swift */,
-				76B0FBD8233248D200A28EAE /* CalendarManager */,
-				76B0FBD7233248C700A28EAE /* Tools */,
 				76B0FBBF233247FD00A28EAE /* Main.storyboard */,
 				76B0FBC2233247FE00A28EAE /* Assets.xcassets */,
 				76B0FBC4233247FE00A28EAE /* LaunchScreen.storyboard */,
 				76B0FBC7233247FE00A28EAE /* Info.plist */,
 			);
 			path = CalendarManagerExample;
-			sourceTree = "<group>";
-		};
-		76B0FBD7233248C700A28EAE /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				76B0FBCF233248A300A28EAE /* InfoPlistUtil.swift */,
-				76B0FBD0233248A300A28EAE /* Logger.swift */,
-				76B0FBD3233248AF00A28EAE /* Date+Ext.swift */,
-				76B0FBD5233248C300A28EAE /* Identifiable.swift */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		76B0FBD8233248D200A28EAE /* CalendarManager */ = {
-			isa = PBXGroup;
-			children = (
-				76B0FBCD2332482F00A28EAE /* CalendarManager.swift */,
-			);
-			path = CalendarManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +85,9 @@
 			dependencies = (
 			);
 			name = CalendarManagerExample;
+			packageProductDependencies = (
+				7667A3B62360520F002F82B9 /* CalendarManager */,
+			);
 			productName = CalendarManagerExample;
 			productReference = 76B0FBB8233247FD00A28EAE /* CalendarManagerExample.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 76B0FBAF233247FD00A28EAE;
+			packageReferences = (
+				7667A3B52360520F002F82B9 /* XCRemoteSwiftPackageReference "CalendarManager" */,
+			);
 			productRefGroup = 76B0FBB9233247FD00A28EAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,11 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76B0FBD2233248A300A28EAE /* Logger.swift in Sources */,
-				76B0FBD1233248A300A28EAE /* InfoPlistUtil.swift in Sources */,
-				76B0FBCE2332482F00A28EAE /* CalendarManager.swift in Sources */,
-				76B0FBD4233248AF00A28EAE /* Date+Ext.swift in Sources */,
-				76B0FBD6233248C300A28EAE /* Identifiable.swift in Sources */,
 				76B0FBBE233247FD00A28EAE /* ViewController.swift in Sources */,
 				76B0FBBC233247FD00A28EAE /* AppDelegate.swift in Sources */,
 			);
@@ -376,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7667A3B52360520F002F82B9 /* XCRemoteSwiftPackageReference "CalendarManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:BlueEventHorizon/CalendarManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7667A3B62360520F002F82B9 /* CalendarManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7667A3B52360520F002F82B9 /* XCRemoteSwiftPackageReference "CalendarManager" */;
+			productName = CalendarManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 76B0FBB0233247FD00A28EAE /* Project object */;
 }

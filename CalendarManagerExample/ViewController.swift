@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CalendarManager
 
 class ViewController: UIViewController {
 
