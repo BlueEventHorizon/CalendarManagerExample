@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CalendarManager",
+        "repositoryURL": "git@github.com:BlueEventHorizon/CalendarManager.git",
+        "state": {
+          "branch": "master",
+          "revision": "c5ef931441fb641d0555914b457c21be882ab27b",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
